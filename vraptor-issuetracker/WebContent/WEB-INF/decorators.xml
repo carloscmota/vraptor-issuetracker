@@ -1,0 +1,7 @@
+<decorators defaultdir="/templates">
+	<decorator name="main" page="template_principal.jsp">
+		<pattern>/usuario*</pattern>
+		<pattern>/projetos*</pattern>
+		<pattern>/issues*</pattern>
+	</decorator>
+</decorators>
