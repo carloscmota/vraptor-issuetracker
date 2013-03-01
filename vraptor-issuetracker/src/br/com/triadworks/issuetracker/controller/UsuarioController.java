@@ -100,7 +100,7 @@ public class UsuarioController {
 		
 		Usuario u = dao.carrega(id);
 		
-		//dao.remove(u);
+		dao.remove(u);
 		
 		//result.include("notice","Usuário excluído com sucesso!");
 				
@@ -135,4 +135,6 @@ public class UsuarioController {
 		result.redirectTo(this).lista();
 		
 	}
+	
+	
 }
